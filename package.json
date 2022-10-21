@@ -3,6 +3,7 @@
     "displayName": "Reiz: vue utils",
     "description": "Utils for working with vue files",
     "version": "0.0.1",
+    "publisher": "MykolasMankevicius",
     "repository": {
         "type": "git",
         "url": "https://github.com/Neophen/reiz-vue-utils"
