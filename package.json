@@ -1,7 +1,7 @@
 {
   "name": "reiz-vue-utils",
-  "displayName": "Reiz: vueutils",
-  "description": "removes auto imports and replaces them  with actual imports",
+  "displayName": "Reiz: vue utils",
+  "description": "Utils for working with vue files",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.72.0"
@@ -11,26 +11,26 @@
   ],
   "activationEvents": [
     "onCommand:reiz-vue-utils.import-components",
-    "onCommand:reiz-vue-utils.convert-to-typescript",
+    "onCommand:reiz-vue-utils.convert-to-typescript"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "reiz-vue-utils.import-components",
-        "title": "VUE3: Add component imports"
+        "title": "Vue 3: Add component imports"
       },
       {
         "command": "reiz-vue-utils.convert-to-typescript",
-        "title": "Vue3: Convert to Typescript"
+        "title": "Vue 3: Convert to Typescript"
       }
     ]
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run compile",
+    "vscode:prepublish": "compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "pnpm run compile && pnpm run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
