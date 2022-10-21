@@ -24,4 +24,8 @@ Users appreciate release notes as you update your extension.
 
 Initial release of `reiz-vue-utils`
 
+### 0.0.2
+
+Update image files
+
 ---
