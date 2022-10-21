@@ -6,11 +6,11 @@
 
 Convert your `<script setup>` Vue components to typescript before:
 
-\!\[Before\]\(images/before.png\)
+![Before](images/before.png)
 
 After you run `Vue 3: Convert to Typescript` this will happen:
 
-\!\[After\]\(images/after.png\)
+![Before](images/after.png)
 
 ## Known Issues
 
